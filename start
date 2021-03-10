@@ -26,7 +26,7 @@ _get_repolink () {
 
 _set_bot () {
     local zippath
-    zippath="catuserbot.zip"
+    zippath="legendbot.zip"
     echo "  Downloading source code ..."
     wget -q $(_get_repolink) -O "$zippath"
     echo "  Unpacking Data ..."
@@ -37,16 +37,9 @@ _set_bot () {
     rm -rf "$zippath"
     sleep 5
     cd $CATPATH
-    echo "    Starting CatUserBot    "
+    echo "    Starting LEGENDBOT    "
     echo "
-                        :'######:::::'###::::'########::::
-                        '##... ##:::'## ##:::... ##..:::::
-                         ##:::..:::'##:. ##::::: ##:::::::
-                         ##:::::::'##:::. ##:::: ##:::::::
-                         ##::::::: #########:::: ##:::::::
-                         ##::: ##: ##.... ##:::: ##:::::::
-                        . ######:: ##:::: ##:::: ##:::::::
-                        :......:::..:::::..:::::..::::::::
+                        LEGEND BOT IS RUNNING IS ON THE WAY
     "
 
     echo "
