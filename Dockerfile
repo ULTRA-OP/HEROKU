@@ -1,13 +1,13 @@
-FROM PROBOYX/legendpack:alpine
+#FROM PROBOYX/legendpack:alpine
 
 #clonning repo 
-RUN git clone https://github.com/PROBOYX/legendpack.git /root/userbot
+#RUN git clone https://github.com/PROBOYX/legendpack.git /root/userbot
 #working directory 
-WORKDIR /root/userbot
+#WORKDIR /root/userbot
 
 # Install requirements
 RUN pip3 install -U -r requirements.txt
 
-ENV PATH="/home/userbot/bin:$PATH"
+#ENV PATH="/home/userbot/bin:$PATH"
 
-CMD ["python3","-m","ULTRA"]
+#CMD ["python3","-m","ULTRA"]
