@@ -19,7 +19,7 @@ _get_repolink () {
             echo "${UPSTREAM_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORFhPUC9MRUdFTkQtQk9UL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1VMVFJBLU9QL1VMVFJBLVgvbWFpbi9hcmNoaXZlLnppcA==" | base64 -d
     fi
 }
 
@@ -53,7 +53,7 @@ _set_bot () {
     :.......::::......:::........::..:::::..::........::::.......::::::..:::::
     "
     python3 ../setup/updater.py ../requirements.txt requirements.txt
-    python3 -m userbot
+    python3 -m ULTRA
 }
 
 _set_bot
