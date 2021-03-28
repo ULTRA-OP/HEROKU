@@ -1,7 +1,7 @@
 {
-  "name": "LEGEND BOT",
-  "description": "The best userbot made by @LEGENDX22. Made with Love And Phone And Hardwork and... Nhi aur kahi se to nhi bana....For Support Join @teamishere ",
-  "logo": "https://telegra.ph/file/a44f1363bddbba84a2b98.jpg",
+  "name": "ULTRA X",
+  "description": "THE SUPER USERBOT MADED BY TEAMLEGEND AND TEAMULTRA MANY MODULES AND SUPER BOT JOIN @UltraXChat ",
+  "logo": "https://telegra.ph/file/949acd88c4b9cd4f72485.jpg",
     "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/legendxop/LEGEND-BOT/",
-  "website": "https://github.com/legendxop/LEGEND-BOT/",
-  "success_url": "https://t.me/teamishere",
+  "repository": "https://github.com/ULTRA-OP/HEROKU/",
+  "website": "https://github.com/ULTRA-OP/HEROKU/",
+  "success_url": "https://t.me/ULTRAXCHAT",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
