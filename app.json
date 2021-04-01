@@ -27,25 +27,20 @@
       "value": "",
       "required": false
     },
-    "BOT_NICK_NAME": {
-      "description": "YOU CAN SET HERE YOUR BOT CUSTOM NAME LIKE PRO BOT SUPER BOT etc..",
-      "value": "",
-      "required": false
-    },
     "ALIVE_NAME": {
       "description": "Fill your Full name or Username like @LEGENDX22.",
       "value": "",
       "required": false
     },
     "ALIVE_MSG": {
-      "description": "Set Custom message",
+      "description": "Set Custom awake Message When entering .awake command.",
       "value": "",
       "required": false
     },
     "ALIVE_PHOTTO": {
       "description": "put here any telegraph media link use .awake to show.",
       "value": "",
-      "required": true
+      "required": false
     },
     "BIO_MSG": {
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
@@ -91,32 +86,23 @@
       "value": ""
     },
     "PLUGIN_CHANNEL": {
-      "description": "Create a private group add rose  then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": ""
-      "required": false
+      "description": "skip or Create a private group add rose  then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
+      "value": "9999"
     },
     "PRIVATE_GROUP_BOT_API_ID": {
-      "description": "skip this or create a private channel and then type .get_id add that value here for save messages",
-      "value": "-9999"
-      "required": true
-    },
-    "FBAN_GROUP_ID": {
-      "description": "skip this or Go to your group add rose bot type /id and paste here",
-      "value": "-9999"
-      "required": true
+      "description": "skip or create a private channel and then type .get_id add that value here for save messages",
+      "value": "99999"
     },
     "PRIVATE_GROUP_ID": {
-      "description": "skip this or Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": "-999"
-      "required": true
+      "description": "skip or Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
+      "value": "999999"
     },
     "PM_LOGGR_BOT_API_ID": {
-       "description": "for login private messages create a private channel and do .get_id and add that id", 
-       "value": "-999"
-       "required": true
+       "description": "skip or for login private messages create a private channel and do .get_id and add that id", 
+       "value": "99999"
     }, 
     "STRING_SESSION": {
-      "description": "Get this value by running https://repl.it/@legendx22/LEGEND-BOT#main.py ",
+      "description": "Get this value by running https://Hellbot.hellboyop.repl.run/ ",
       "value": ""
     },
     "GITHUB_ACCESS_TOKEN": {
@@ -125,7 +111,7 @@
       "required": false
     },
     "GIT_REPO_NAME": {
-      "description": "Your repo name Example: HellBoy-OP/LEGENDBOT , but GITHUB_ACCESS_TOKEN must be setup first.",
+      "description": "Your repo name Example: HellBoy-OP/HellBot , but GITHUB_ACCESS_TOKEN must be setup first.",
       "value": "",
       "required": false
     },
@@ -173,12 +159,12 @@
     },
     "NO_OF_COLUMS_DISPLAYED_IN_H_ME_CMD": {
       "description": "Set The Amount Of Rows You Want To Displayed In Help Command default 2",
-      "value": "3",
+      "value": "2",
       "required": true
     },
     "EMOJI_TO_DISPLAY_IN_HELP": {
       "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "",
+      "value": "😄",
       "required": true
     }, 
     "TZ": {
