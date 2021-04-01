@@ -98,22 +98,22 @@
     "PRIVATE_GROUP_BOT_API_ID": {
       "description": "skip this or create a private channel and then type .get_id add that value here for save messages",
       "value": "-9999"
-      "required": false
+      "required": true
     },
     "FBAN_GROUP_ID": {
       "description": "skip this or Go to your group add rose bot type /id and paste here",
       "value": "-9999"
-      "required": false
+      "required": true
     },
     "PRIVATE_GROUP_ID": {
       "description": "skip this or Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
       "value": "-999"
-      "required": false
+      "required": true
     },
     "PM_LOGGR_BOT_API_ID": {
        "description": "for login private messages create a private channel and do .get_id and add that id", 
        "value": "-999"
-       "required": false
+       "required": true
     }, 
     "STRING_SESSION": {
       "description": "Get this value by running https://repl.it/@legendx22/LEGEND-BOT#main.py ",
