@@ -38,14 +38,14 @@
       "required": false
     },
     "ALIVE_MSG": {
-      "description": "Set Custom awake Message When entering .awake command.",
+      "description": "Set Custom message",
       "value": "",
       "required": false
     },
     "ALIVE_PHOTTO": {
       "description": "put here any telegraph media link use .awake to show.",
       "value": "",
-      "required": false
+      "required": true
     },
     "BIO_MSG": {
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
@@ -93,22 +93,27 @@
     "PLUGIN_CHANNEL": {
       "description": "Create a private group add rose  then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
       "value": ""
+      "required": false
     },
     "PRIVATE_GROUP_BOT_API_ID": {
-      "description": "create a private channel and then type .get_id add that value here for save messages",
-      "value": ""
+      "description": "skip this or create a private channel and then type .get_id add that value here for save messages",
+      "value": "-9999"
+      "required": false
     },
     "FBAN_GROUP_ID": {
-      "description": "Go to your group add rose bot type /id and paste here",
-      "value": ""
+      "description": "skip this or Go to your group add rose bot type /id and paste here",
+      "value": "-9999"
+      "required": false
     },
     "PRIVATE_GROUP_ID": {
-      "description": "Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": ""
+      "description": "skip this or Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
+      "value": "-999"
+      "required": false
     },
     "PM_LOGGR_BOT_API_ID": {
        "description": "for login private messages create a private channel and do .get_id and add that id", 
-       "value": ""
+       "value": "-999"
+       "required": false
     }, 
     "STRING_SESSION": {
       "description": "Get this value by running https://repl.it/@legendx22/LEGEND-BOT#main.py ",
