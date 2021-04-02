@@ -1,6 +1,6 @@
 {
   "name": "ULTRA X",
-  "description": "THE SUPER USERBOT MADED BY TEAMLEGEND AND TEAMULTRA MANY MODULES AND SUPER BOT JOIN @UltraXChat ",
+  "description": "THE SUPER USERBOT MADED BY TEAM LEGEND AND TEAM ULTRA MANY MODULES AND SUPER BOT; JOIN @UltraXChat FOR HELP ",
   "logo": "https://telegra.ph/file/949acd88c4b9cd4f72485.jpg",
     "keywords": [
     "telegram",
@@ -102,7 +102,7 @@
        "value": "99999"
     }, 
     "STRING_SESSION": {
-      "description": "Get this value by running https://Hellbot.hellboyop.repl.run/ ",
+      "description": "Get this value by running https://replit.com/@legendx22/ULTRA-X#main.py ",
       "value": ""
     },
     "GITHUB_ACCESS_TOKEN": {
@@ -111,7 +111,7 @@
       "required": false
     },
     "GIT_REPO_NAME": {
-      "description": "Your repo name Example: HellBoy-OP/HellBot , but GITHUB_ACCESS_TOKEN must be setup first.",
+      "description": "Your repo name Example: madboy482/ULTRA-X , but GITHUB_ACCESS_TOKEN must be setup first.",
       "value": "",
       "required": false
     },
