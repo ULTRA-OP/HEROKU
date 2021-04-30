@@ -152,8 +152,13 @@
       "description": "Get your own APPID from https://api.openweathermap.org/data/2.5/weather",
       "required": false
     },
+    "ONLINE_ALERT": {
+      "description": "Set it True for being informed by the Assistant Bot that UltraX is now working. Preferred and By-Default is True",
+      "value": "True",
+      "required": true
+    },
     "NO_OF_BUTTONS_DISPLAYED_IN_H_ME_CMD": {
-      "description": " Set The Amount Of Buttons Displayed In Help Command",
+      "description": "Set The Amount Of Buttons Displayed In Help Command",
       "value": "10",
       "required": true
     },
