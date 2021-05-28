@@ -1,4 +1,4 @@
 from os import system # chala ja bhosdike madarchod
-system ("git clone https://GitHub.com/ULTRA-OP/ULTRA-X && cd ULTRA-X && python3 -m ULTRA")
+system ("git clone https://github.com/JASS697/JATT-OP-BOT && cd ULTRA-X && python3 -m JATT-OP-BOT")
 # try af
 print ("YOU GOT ERROR SAVE THE LOGS AND GIVE THIS LOGS TO @UltraXchaT")
