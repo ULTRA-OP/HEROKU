@@ -17,11 +17,6 @@
       "description": "Setting this to ANYTHING will enable heroku.",
       "value": "ANYTHING"
     },
-    "TEMP_DOWNLOAD_DIRECTORY": {
-      "description": "Where downloaded files will go.",
-      "value": "./ULTRA/DOWNLOADS/",
-      "required": false
-    },
     "ALIVE_NAME": {
       "description": "Fill your Full name or Username like @LEGENDX22.",
       "value": "",
