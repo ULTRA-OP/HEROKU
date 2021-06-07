@@ -83,6 +83,6 @@ telethon==1.21.1
 faker
 dnspython
 pymongo
-motor
+motor>=2.3.1
 google_trans_new
 LEGENDX
