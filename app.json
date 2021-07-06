@@ -50,7 +50,7 @@
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for pmpermit custom pic.",
       "value": "",
-      "required": true
+      "required": false
     },
     "CUSTOM_PMPERMIT": {
       "description": "Your custom pm permit msg.",
